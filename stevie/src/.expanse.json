@@ -1,0 +1,250 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "order": 0.34633694965140926,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "AR",
+          "phone": "AR",
+          "world": {
+            "enableVps": true
+          }
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        1.6727950034148567,
+        1.5494421338197388,
+        6.820029855918676
+      ],
+      "rotation": [
+        -1.8412919444518387e-17,
+        0.9537169517857893,
+        -0.30070579621354565,
+        -5.839832572618051e-17
+      ],
+      "scale": [
+        0.9999998646558023,
+        0.9999999931513284,
+        0.9999998715044741
+      ],
+      "order": 1.3463369496514093,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional",
+        "shadowBias": 0
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        -16.484550479594475,
+        24.287114514717572,
+        -24.017222582911174
+      ],
+      "rotation": [
+        0,
+        0.8479261700136519,
+        0,
+        0.5301143369179706
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "order": 2.346336949651409,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "995a175f-d2ce-4492-b35e-48f9f9d3ee9a": {
+      "id": "995a175f-d2ce-4492-b35e-48f9f9d3ee9a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+      "components": {
+        "ef654181-4894-461d-acc7-7ce11659e47a": {
+          "id": "ef654181-4894-461d-acc7-7ce11659e47a",
+          "name": "location-anchor",
+          "parameters": {}
+        }
+      },
+      "name": "Seaholm EcoDistrict & Gears",
+      "location": {
+        "name": "seaholm-ecod-501e",
+        "poiId": "501ef9989af7426db1d2269268500191.16",
+        "lat": 30.266792,
+        "lng": -97.753806,
+        "title": "Seaholm EcoDistrict & Gears",
+        "anchorNodeId": "001B4978FF2C4AE6B3223FD1645FF938",
+        "anchorSpaceId": "9558E4BB328442BFAC70B2B1D3D29096",
+        "imageUrl": "https://lh3.googleusercontent.com/T-eeWmfYOF6rd1fYYbUjtDL1scXLuggYRb9fqHpFMq4ldbgHOviASj0DHzzE9jWpFxDElFTS6E0f__9EXxQXWC821d8",
+        "anchorPayload": "ChUIgqqwxtGX2qBdEKP10+LEiff8vQEYj6+qkOQyKicKFQiAtqTC95+LpeYBELPF/InN7Nf8OBIJCgASBSUAAIA/HQAAgD8yEhGpB6xhUEQ+QBnKEVEYP3BYwA=="
+      }
+    },
+    "c5020798-cbcc-498f-bef2-1aba43f4d8df": {
+      "id": "c5020798-cbcc-498f-bef2-1aba43f4d8df",
+      "position": [
+        -6.449180946858223,
+        -0.9822953647986237,
+        8.180558707871558
+      ],
+      "rotation": [
+        0,
+        -0.6295871644620314,
+        0,
+        0.7769298567725783
+      ],
+      "scale": [
+        8,
+        8,
+        8
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "995a175f-d2ce-4492-b35e-48f9f9d3ee9a",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Stevie.glb"
+        },
+        "animationClip": "*",
+        "loop": true,
+        "timeScale": 1
+      },
+      "name": "Stevie.glb"
+    },
+    "91176869-e65f-4942-9c7a-7a89fe4532ff": {
+      "id": "91176869-e65f-4942-9c7a-7a89fe4532ff",
+      "position": [
+        -6.458463437547369,
+        -5.5511151231257815e-17,
+        7.772761740012507
+      ],
+      "rotation": [
+        0,
+        0.9977722241110686,
+        0,
+        0.06671273336066715
+      ],
+      "scale": [
+        1,
+        0.9999999999999999,
+        0.9999999999999987
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "995a175f-d2ce-4492-b35e-48f9f9d3ee9a",
+      "components": {},
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Ladybird_Electric_VO.mp3"
+        },
+        "positional": true,
+        "distanceModel": "linear",
+        "rolloffFactor": 1,
+        "maxDistance": 25,
+        "loop": true,
+        "paused": false
+      },
+      "name": "Ladybird_Electric_VO.mp3"
+    },
+    "fd8a7fff-7bf3-4e21-90c4-e24394ef1eb8": {
+      "id": "fd8a7fff-7bf3-4e21-90c4-e24394ef1eb8",
+      "position": [
+        -6.70496592119679,
+        -1.6653345369377346e-16,
+        9.070614202233509
+      ],
+      "rotation": [
+        0,
+        -0.5780857284662255,
+        0,
+        0.8159760355204517
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "995a175f-d2ce-4492-b35e-48f9f9d3ee9a",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bird_1.glb"
+        },
+        "animationClip": "ArmatureAction",
+        "loop": true
+      },
+      "name": "bird_1.glb"
+    }
+  },
+  "spaces": {
+    "e4bde5d1-83f0-489f-bc23-f322a3163af2": {
+      "id": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+      "name": "Default",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+    }
+  },
+  "entrySpaceId": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+  "historyVersion": "m9rw0xjc"
+}
